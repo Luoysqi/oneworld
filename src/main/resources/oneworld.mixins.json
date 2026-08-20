@@ -1,0 +1,40 @@
+{
+	"required": true,
+	"package": "com.oneworld.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"NetherPortalBlockMixin",
+		"EndPortalBlockMixin",
+		"BedBlockMixin",
+		"RespawnAnchorBlockMixin",
+		"BucketItemMixin",
+		"LiquidBlockMixin",
+		"FlowingFluidMixin",
+		"LavaFluidMixin",
+		"ChunkSkyLightSourcesMixin",
+		"ChunkAccessMixin",
+		"ChunkAccessHeightmaps",
+		"ChunkGeneratorAccessor",
+		"PlayerSpawnFinderMixin",
+		"MinecraftServerMixin",
+		"TheEndGatewayBlockEntityMixin",
+		"PhantomSunBurnMixin",
+		"NaturalSpawnerMixin",
+		"MonsterSpawnLightMixin",
+		"EnderDragonMixin",
+		"DragonHoldingPatternPhaseMixin",
+		"DragonLandingApproachPhaseMixin",
+		"DragonLandingPhaseMixin",
+		"DragonDeathPhaseMixin",
+		"DragonTakeoffPhaseMixin",
+		"ServerPlayerAccessor",
+		"PhantomAttackStrategyGoalMixin",
+		"SkyPhantomDespawnMixin",
+		"EnvironmentAttributeSystemMixin",
+		"ChunkStatusTasksMixin",
+		"EndCrystalTickMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:gui/advancements/backgrounds/nether",
+    "description": {
+      "translate": "advancements.oneworld.its_getting_hot_in_here.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "id": "minecraft:lava_bucket"
+    },
+    "title": {
+      "translate": "advancements.oneworld.its_getting_hot_in_here.title"
+    }
+  },
+  "requirements": [
+    [
+      "granted"
+    ]
+  ]
+}

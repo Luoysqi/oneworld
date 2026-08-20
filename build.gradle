@@ -1,0 +1,62 @@
+plugins {
+	id 'net.fabricmc.fabric-loom' version "${loom_version}"
+}
+
+version = project.mod_version
+group = project.maven_group
+
+repositories {
+	// Mod Menu API for the in-game config screen (optional at runtime).
+	maven {
+		name = 'TerraformersMC'
+		url = 'https://maven.terraformersmc.com/releases/'
+	}
+}
+
+loom {
+	splitEnvironmentSourceSets()
+
+	mods {
+		"oneworld" {
+			sourceSet sourceSets.main
+			sourceSet sourceSets.client
+		}
+	}
+}
+
+dependencies {
+	minecraft "com.mojang:minecraft:${project.minecraft_version}"
+	implementation "net.fabricmc:fabric-loader:${project.loader_version}"
+	implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+	// Iris shader compat (optional at runtime): compile-only, local jar.
+	// Only Iris's own API classes are referenced (stable names, no remap needed).
+	// The jar is NOT redistributed - download it yourself from
+	// https://modrinth.com/mod/iris (matching 26.2) into ./libs/
+	compileOnly files("libs/iris-fabric-1.11.2+mc26.2.jar")
+	// Xaero map compat (optional at runtime): compile-only, local jars.
+	// Their licenses forbid redistribution - download them yourself from
+	// https://modrinth.com/mod/xaeros-minimap and https://modrinth.com/mod/xaeros-world-map
+	// (versions matching 26.2) into ./libs/ as xaerominimap.jar / xaeroworldmap.jar
+	compileOnly files("libs/xaerominimap.jar", "libs/xaeroworldmap.jar")
+	// Mod Menu API (optional at runtime): adds the in-game config screen button.
+	compileOnly "com.terraformersmc:modmenu:${project.modmenu_version}"
+}
+
+processResources {
+	def version = project.version
+	inputs.property "version", version
+	filesMatching("fabric.mod.json") {
+		expand "version": version
+	}
+}
+
+tasks.withType(JavaCompile).configureEach {
+	it.options.release = 25
+	it.options.encoding = "UTF-8"
+}
+
+java {
+	withSourcesJar()
+	sourceCompatibility = JavaVersion.VERSION_25
+	targetCompatibility = JavaVersion.VERSION_25
+}

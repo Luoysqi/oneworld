@@ -1,0 +1,16 @@
+{
+  "entity.oneworld.elite_phantom": "巨型夜魅",
+  "message.oneworld.tool_melting": "工具正在被高溫熔化……",
+
+  "advancements.oneworld.physical_anti_air_defense.title": "超越雲層",
+  "advancements.oneworld.physical_anti_air_defense.description": "向上搭方塊，闖入主世界高空的夜魅巡邏區",
+  "advancements.oneworld.freefall_tester.title": "有驚無險",
+  "advancements.oneworld.freefall_tester.description": "被天空夜魅擊中後落入水中生還",
+  "advancements.oneworld.its_getting_hot_in_here.title": "抵達熱層",
+  "advancements.oneworld.its_getting_hot_in_here.description": "向下挖掘，觸及主世界與地獄之間的灼熱層",
+
+  "oneworld.config.title": "三界合一設定",
+  "oneworld.config.restrictions": "限制系統（夜魅防空 + 灼熱層）",
+  "oneworld.config.endNightSky": "終界永夜天空",
+  "oneworld.config.vanillaNetherLight": "原版地獄亮度"
+}

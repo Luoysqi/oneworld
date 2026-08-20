@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:gui/advancements/backgrounds/stone",
+    "description": {
+      "translate": "advancements.oneworld.freefall_tester.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "id": "minecraft:water_bucket"
+    },
+    "title": {
+      "translate": "advancements.oneworld.freefall_tester.title"
+    }
+  },
+  "requirements": [
+    [
+      "granted"
+    ]
+  ]
+}

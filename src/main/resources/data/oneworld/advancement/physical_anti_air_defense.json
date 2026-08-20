@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:gui/advancements/backgrounds/adventure",
+    "description": {
+      "translate": "advancements.oneworld.physical_anti_air_defense.description"
+    },
+    "frame": "task",
+    "icon": {
+      "id": "minecraft:phantom_membrane"
+    },
+    "title": {
+      "translate": "advancements.oneworld.physical_anti_air_defense.title"
+    }
+  },
+  "requirements": [
+    [
+      "granted"
+    ]
+  ]
+}

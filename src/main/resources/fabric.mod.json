@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "oneworld",
+	"version": "${version}",
+	"name": "三界合一 OneWorld",
+	"description": "一个让MC更优雅的世界观：这个模组把我的世界原版的三个维度融合到了一个世界中，且为了防止玩家过于容易地进入末地和下界，在不破坏原版的条件下做了一些额外内容。 An elegant new take on Minecraft's world: this mod fuses the three vanilla dimensions into one vertical world, with a few extra features that keep the Nether and the End from being reached too easily - without breaking anything vanilla.",
+	"authors": [
+		"Luoysqi"
+	],
+	"license": "MIT",
+	"icon": "assets/oneworld/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.oneworld.OneWorld"
+		],
+		"client": [
+			"com.oneworld.client.OneWorldClient"
+		],
+		"modmenu": [
+			"com.oneworld.client.OneWorldModMenu"
+		]
+	},
+	"mixins": [
+		"oneworld.mixins.json",
+		"oneworld.client.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"modmenu": "*"
+	}
+}

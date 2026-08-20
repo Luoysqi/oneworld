@@ -1,0 +1,15 @@
+{
+  "entity.oneworld.elite_phantom": "巨型幻翼",
+  "message.oneworld.tool_melting": "工具正在被高温熔化……",
+  "advancements.oneworld.physical_anti_air_defense.title": "超越云层",
+  "advancements.oneworld.physical_anti_air_defense.description": "向上搭方块，闯入主世界高空的幻翼巡逻区",
+  "advancements.oneworld.freefall_tester.title": "有惊无险",
+  "advancements.oneworld.freefall_tester.description": "被天空幻翼击中后落入水中生还",
+  "advancements.oneworld.its_getting_hot_in_here.title": "抵达热层",
+  "advancements.oneworld.its_getting_hot_in_here.description": "向下挖掘，触及主世界与下界之间的灼热层",
+
+  "oneworld.config.title": "三界合一设置",
+  "oneworld.config.restrictions": "限制系统（幻翼防空 + 灼热层）",
+  "oneworld.config.endNightSky": "末地永夜天空",
+  "oneworld.config.vanillaNetherLight": "原版下界亮度"
+}

@@ -1,0 +1,15 @@
+{
+  "entity.oneworld.elite_phantom": "Giant Phantom",
+  "message.oneworld.tool_melting": "Your tool is melting in the heat...",
+  "advancements.oneworld.physical_anti_air_defense.title": "Above the Clouds",
+  "advancements.oneworld.physical_anti_air_defense.description": "Pillar up into the phantom patrol zone high above the Overworld",
+  "advancements.oneworld.freefall_tester.title": "A Close Call",
+  "advancements.oneworld.freefall_tester.description": "Land in water after being hit by a sky phantom",
+  "advancements.oneworld.its_getting_hot_in_here.title": "Reaching the Heat Layer",
+  "advancements.oneworld.its_getting_hot_in_here.description": "Dig down into the scorched layer between the Overworld and the Nether",
+
+  "oneworld.config.title": "OneWorld Settings",
+  "oneworld.config.restrictions": "Restrictions (sky phantoms + heat zone)",
+  "oneworld.config.endNightSky": "Eternal night End sky",
+  "oneworld.config.vanillaNetherLight": "Vanilla Nether brightness"
+}

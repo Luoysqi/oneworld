@@ -1,0 +1,19 @@
+{
+	"required": true,
+	"package": "com.oneworld.client.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"SkyRendererMixin",
+		"EnvironmentAttributeProbeMixin",
+		"ClientLevelClockMixin",
+		"CloudRendererMixin",
+		"IrisDimensionMixin",
+		"XaeroMapProcessorMixin",
+		"XaeroMinimapWriterMixin",
+		"CrumblingDepthFixMixin",
+		"MinecraftMusicMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

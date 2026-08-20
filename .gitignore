@@ -1,0 +1,24 @@
+# Gradle
+.gradle/
+build/
+out/
+classes/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+bin/
+
+# Fabric
+run/
+remappedSrc/
+
+# 本地编译依赖（需自行下载，勿提交）
+# Local compile-only deps (download yourself, do not commit)
+libs/
